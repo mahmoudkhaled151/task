@@ -1,0 +1,154 @@
+[
+  {
+    "img": "../../assets/machine_learning.jpg",
+    "courseName": "Advanced Machine Learning",
+    "author": "Alex Johnson",
+    "actualPrice": "₹1199",
+    "discountPercentage": "15%",
+    "tags": [ "Machine Learning", "Python" ]
+  },
+  {
+    "img": "../../assets/JavaScript-Frameworks.png",
+    "courseName": "JavaScript Frameworks Masterclass",
+    "author": "Emily White",
+    "actualPrice": "₹899",
+    "discountPercentage": "20%",
+    "tags": [ "JavaScript", "React", "Vue" ]
+  },
+  {
+    "img": "../../assets/django_ca695a.png",
+    "courseName": "Full Stack Development with Django",
+    "author": "Chris Turner",
+    "actualPrice": "₹1499",
+    "discountPercentage": "10%",
+    "tags": [ "Python", "Django", "JavaScript" ]
+  },
+  {
+    "img": "../../assets/Cybersecurity.jpg",
+    "courseName": "Cybersecurity Essentials",
+    "author": "Sophia Davis",
+    "actualPrice": "₹1299",
+    "discountPercentage": "25%",
+    "tags": [ "Cybersecurity", "Network Security" ]
+  },
+  {
+    "img": "../../assets/beauty-app-1024x768.png",
+    "courseName": "Mobile App UX Design",
+    "author": "Daniel Smith",
+    "actualPrice": "₹999",
+    "discountPercentage": "18%",
+    "tags": [ "UX Design", "Mobile App Development" ]
+  },
+  {
+    "img": "../../assets/da13730c8b5158e6c7e0e72aef8438a6.jpg",
+    "courseName": "Node.js for Beginners",
+    "author": "Ava Williams",
+    "actualPrice": "₹699",
+    "discountPercentage": "22%",
+    "tags": [ "Node.js", "JavaScript" ]
+  },
+  {
+    "img": "../../assets/1683717568757.jpg",
+    "courseName": "Artificial Intelligence in Business",
+    "author": "Noah Turner",
+    "actualPrice": "₹1599",
+    "discountPercentage": "12%",
+    "tags": [ "Artificial Intelligence", "Business" ]
+  },
+  {
+    "img": "../../assets/ios-app-development-on-swift-01.png",
+    "courseName": "Swift Programming for iOS",
+    "author": "Emma Johnson",
+    "actualPrice": "₹1099",
+    "discountPercentage": "17%",
+    "tags": [ "iOS", "Swift" ]
+  },
+  {
+    "img": "../../assets/the-principles-of-responsive-web-design.png",
+    "courseName": "Responsive Web Design Principles",
+    "author": "Liam White",
+    "actualPrice": "₹799",
+    "discountPercentage": "21%",
+    "tags": [ "Web Design", "HTML", "CSS" ]
+  },
+  {
+    "img": "../../assets/1.jpg",
+    "courseName": "Java Fundamentals",
+    "author": "Olivia Turner",
+    "actualPrice": "₹899",
+    "discountPercentage": "0",
+    "tags": [ "Java" ]
+  },
+  {
+    "img": "../../assets/unity-3-680x360.jpg",
+    "courseName": "Game Development with Unity",
+    "author": "Lucas Davis",
+    "actualPrice": "₹1399",
+    "discountPercentage": "14%",
+    "tags": [ "Game Development", "Unity" ]
+  },
+  {
+    "img": "../../assets/pythom-data-science.jpg",
+    "courseName": "Python for Data Science",
+    "author": "Aria Smith",
+    "actualPrice": "₹1199",
+    "discountPercentage": "0",
+    "tags": [ "Python", "Data Science" ]
+  },
+  {
+    "img": "../../assets/2.jpg",
+    "courseName": "Frontend Development Bootcamp",
+    "author": "Mia Johnson",
+    "actualPrice": "₹999",
+    "discountPercentage": "18%",
+    "tags": [ "HTML", "CSS", "JavaScript" ]
+  },
+  {
+    "img": "../../assets/3.png",
+    "courseName": "C# Programming Mastery",
+    "author": "Jackson White",
+    "actualPrice": "₹1099",
+    "discountPercentage": "0",
+    "tags": [ "C#" ]
+  },
+  {
+    "img": "../../assets/1885262_b576.jpg",
+    "courseName": "Angular Framework Deep Dive",
+    "author": "Ava Turner",
+    "actualPrice": "₹1299",
+    "discountPercentage": "15%",
+    "tags": [ "Angular" ]
+  },
+  {
+    "img": "../../assets/dataviz.png",
+    "courseName": "Data Visualization with D3.js",
+    "author": "Ethan Davis",
+    "actualPrice": "₹899",
+    "discountPercentage": "0",
+    "tags": [ "Data Visualization", "D3.js" ]
+  },
+  {
+    "img": "../../assets/4.jpg",
+    "courseName": "Android App Development Basics",
+    "author": "Isabella Smith",
+    "actualPrice": "₹799",
+    "discountPercentage": "0",
+    "tags": [ "Android", "Mobile App Development" ]
+  },
+  {
+    "img": "../../assets/vuecover-1200x735.jpg",
+    "courseName": "Vue.js for Frontend Development",
+    "author": "Logan Johnson",
+    "actualPrice": "₹999",
+    "discountPercentage": "18%",
+    "tags": [ "Vue.js", "JavaScript" ]
+  },
+  {
+    "img": "../../assets/5.png",
+    "courseName": "Cloud Computing Fundamentals",
+    "author": "Sophie Turner",
+    "actualPrice": "₹1199",
+    "discountPercentage": "16%",
+    "tags": [ "Cloud Computing" ]
+  }
+]

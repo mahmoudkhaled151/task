@@ -1,0 +1,25 @@
+
+.end
+{
+    margin-left :auto;
+}
+.pos
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+.bt
+{
+    border-radius: 5px;
+    border: solid 1px slateblue;
+    background-color: azure;
+    color: black;
+}
+.bt:hover
+{
+    background-color: rgba(0,0, rgb(41, 41, 217), .2);
+}

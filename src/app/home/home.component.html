@@ -1,0 +1,57 @@
+<header>
+<div style="padding-top:6% ;" class="container">
+    <div class="row">
+        <div class="col-md-5">
+            <h1 style="padding-top: 10%; color: white; font-size: 400%; font-weight: 300;">Take Student Experience To The Next Level</h1>
+            <p style="color: aqua;" class="lead">Architect client-centered total linkage for intuitive benefits restore convergence before real-time partnerships.</p>
+             <div class="bt"  >
+               <h6 style="font-size: 150%; font-weight: 100;">View Our Course</h6>
+             </div>
+        </div>
+         <div class="col-md-7">
+            <img style="position: relative;" class="w-100" src="../../assets/img-slider-03.png" alt="">
+         </div>
+    </div>
+
+</div>
+</header>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,224L20,202.7C40,181,80,139,120,138.7C160,139,200,181,240,202.7C280,224,320,224,360,218.7C400,213,440,203,480,186.7C520,171,560,149,600,138.7C640,128,680,128,720,144C760,160,800,192,840,181.3C880,171,920,117,960,117.3C1000,117,1040,171,1080,181.3C1120,192,1160,160,1200,154.7C1240,149,1280,171,1320,181.3C1360,192,1400,192,1420,192L1440,192L1440,0L1420,0C1400,0,1360,0,1320,0C1280,0,1240,0,1200,0C1160,0,1120,0,1080,0C1040,0,1000,0,960,0C920,0,880,0,840,0C800,0,760,0,720,0C680,0,640,0,600,0C560,0,520,0,480,0C440,0,400,0,360,0C320,0,280,0,240,0C200,0,160,0,120,0C80,0,40,0,20,0L0,0Z"></path></svg>
+<section id="courses">
+<div class="container">
+  <div class="row">
+    <div class="text-center">
+    
+        <p style="text-transform: uppercase; color: #aeaeae;">edumall, ALL THE TIME</p>
+        <h4 style="font-weight: 200;">What do you want to learn today?</h4>
+        <div style="background-color: #575757; width: 10%; height: 1px; display: inline-block; " class="mt-3 mb-5"></div>
+      
+      
+    </div>
+    <div *ngFor="let item of pages; let i = index"  class="col-md-3">
+      <div *ngIf="i<4" class="cards " >
+          <img style="border-top-right-radius: 10px; border-top-left-radius: 10px; height: 30vh;" src={{item.img}} class="w-100 " alt="">
+          <div class="p-3">
+          <h6 style="font-size: 80%; font-weight: 500;">{{item.courseName}}</h6>
+          <p style="color: #aeaeae; font-size: 80%;"><span style="color: #575757; font-weight: 600; ">author :</span> {{item.author}}</p>
+          <p style="color: #aeaeae; font-size: 80%;" class="head"><span style="color: #575757; font-weight: 600;">Price</span> {{item.actualPrice}}</p>
+          <p style="color: #aeaeae; font-size: 80%;" class="head" > <span style="color: #575757; font-weight: 600;">Discounted : </span> {{item.discountPercentage}}</p>
+          <div class="d-block">
+          <button type="button" style="margin-right:10% ;" class="btn btn-primary" (click)="buy(item)"> Buy now </button>
+          <button type="button" class="btn btn-info" (click)="wish(item)"> Add favorite </button>
+          </div>     
+        </div>
+    </div>
+
+    </div>
+    
+  </div>
+  <div class="row">
+  <div class="col-md-3">
+    <button [disabled]="current==0" type="button" class="btn btn-danger m-4" (click)="previous()">Previous</button>
+  </div>
+  <div class="col-md-9">
+    <button [disabled]="current==num-1" style="float: right;" type="button" class="btn btn-danger m-4 " (click)="next()">Next</button>
+  </div>   
+</div>
+</div>
+</section>
