@@ -6,21 +6,21 @@
 }
 .coverAll
 {
-    background-color: azure;
-    background-size: cover;
-    background-repeat: no-repeat;    
-    height: 100%;
+    background-color: black;
+    
+    background-size: auto;
+    height: 70%;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    overflow: scroll;
+    overflow: auto;
 }
 .ic
 {
     position: absolute;
-    top: 5%;
+    bottom: 5%;
     right: 5%;
 }
 .favo

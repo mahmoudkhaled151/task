@@ -36,8 +36,8 @@
           <p style="color: #aeaeae; font-size: 80%;" class="head"><span style="color: #575757; font-weight: 600;">Price</span> {{item.actualPrice}}</p>
           <p style="color: #aeaeae; font-size: 80%;" class="head" > <span style="color: #575757; font-weight: 600;">Discounted : </span> {{item.discountPercentage}}</p>
           <div class="d-block">
-          <button type="button" style="margin-right:10% ;" class="btn btn-primary" (click)="buy(item)"> Buy now </button>
-          <button type="button" class="btn btn-info" (click)="wish(item)"> Add favorite </button>
+          <button type="button" style="margin-right:10% ;" class="btn btn-primary" (click)="buy(item , i )"> Buy now </button>
+          <button type="button" class="btn btn-info" (click)="wish(item , i )"> Add favorite </button>
           </div>     
         </div>
     </div>

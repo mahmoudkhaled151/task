@@ -5,7 +5,8 @@
     "author": "Alex Johnson",
     "actualPrice": "₹1199",
     "discountPercentage": "15%",
-    "tags": [ "Machine Learning", "Python" ]
+    "tags": [ "Machine Learning", "Python" ],
+    "id": "16"
   },
   {
     "img": "../../assets/JavaScript-Frameworks.png",
@@ -13,7 +14,8 @@
     "author": "Emily White",
     "actualPrice": "₹899",
     "discountPercentage": "20%",
-    "tags": [ "JavaScript", "React", "Vue" ]
+    "tags": [ "JavaScript", "React", "Vue" ],
+    "id": "17"
   },
   {
     "img": "../../assets/django_ca695a.png",
@@ -21,7 +23,8 @@
     "author": "Chris Turner",
     "actualPrice": "₹1499",
     "discountPercentage": "10%",
-    "tags": [ "Python", "Django", "JavaScript" ]
+    "tags": [ "Python", "Django", "JavaScript" ],
+    "id": "18"
   },
   {
     "img": "../../assets/Cybersecurity.jpg",
@@ -29,7 +32,8 @@
     "author": "Sophia Davis",
     "actualPrice": "₹1299",
     "discountPercentage": "25%",
-    "tags": [ "Cybersecurity", "Network Security" ]
+    "tags": [ "Cybersecurity", "Network Security" ],
+    "id": "19"
   },
   {
     "img": "../../assets/beauty-app-1024x768.png",
@@ -37,7 +41,9 @@
     "author": "Daniel Smith",
     "actualPrice": "₹999",
     "discountPercentage": "18%",
-    "tags": [ "UX Design", "Mobile App Development" ]
+    "tags": [ "UX Design", "Mobile App Development" ],
+    "id": "1"
+
   },
   {
     "img": "../../assets/da13730c8b5158e6c7e0e72aef8438a6.jpg",
@@ -45,7 +51,8 @@
     "author": "Ava Williams",
     "actualPrice": "₹699",
     "discountPercentage": "22%",
-    "tags": [ "Node.js", "JavaScript" ]
+    "tags": [ "Node.js", "JavaScript" ],
+    "id": "2"
   },
   {
     "img": "../../assets/1683717568757.jpg",
@@ -53,7 +60,8 @@
     "author": "Noah Turner",
     "actualPrice": "₹1599",
     "discountPercentage": "12%",
-    "tags": [ "Artificial Intelligence", "Business" ]
+    "tags": [ "Artificial Intelligence", "Business" ],
+    "id": "3"
   },
   {
     "img": "../../assets/ios-app-development-on-swift-01.png",
@@ -61,7 +69,8 @@
     "author": "Emma Johnson",
     "actualPrice": "₹1099",
     "discountPercentage": "17%",
-    "tags": [ "iOS", "Swift" ]
+    "tags": [ "iOS", "Swift" ],
+    "id": "4"
   },
   {
     "img": "../../assets/the-principles-of-responsive-web-design.png",
@@ -69,7 +78,8 @@
     "author": "Liam White",
     "actualPrice": "₹799",
     "discountPercentage": "21%",
-    "tags": [ "Web Design", "HTML", "CSS" ]
+    "tags": [ "Web Design", "HTML", "CSS" ],
+    "id": "5"
   },
   {
     "img": "../../assets/1.jpg",
@@ -77,7 +87,8 @@
     "author": "Olivia Turner",
     "actualPrice": "₹899",
     "discountPercentage": "0",
-    "tags": [ "Java" ]
+    "tags": [ "Java" ],
+    "id": "6"
   },
   {
     "img": "../../assets/unity-3-680x360.jpg",
@@ -85,7 +96,8 @@
     "author": "Lucas Davis",
     "actualPrice": "₹1399",
     "discountPercentage": "14%",
-    "tags": [ "Game Development", "Unity" ]
+    "tags": [ "Game Development", "Unity" ],
+    "id": "7"
   },
   {
     "img": "../../assets/pythom-data-science.jpg",
@@ -93,7 +105,8 @@
     "author": "Aria Smith",
     "actualPrice": "₹1199",
     "discountPercentage": "0",
-    "tags": [ "Python", "Data Science" ]
+    "tags": [ "Python", "Data Science" ],
+    "id": "8"
   },
   {
     "img": "../../assets/2.jpg",
@@ -101,7 +114,8 @@
     "author": "Mia Johnson",
     "actualPrice": "₹999",
     "discountPercentage": "18%",
-    "tags": [ "HTML", "CSS", "JavaScript" ]
+    "tags": [ "HTML", "CSS", "JavaScript" ],
+    "id": "9"
   },
   {
     "img": "../../assets/3.png",
@@ -109,7 +123,8 @@
     "author": "Jackson White",
     "actualPrice": "₹1099",
     "discountPercentage": "0",
-    "tags": [ "C#" ]
+    "tags": [ "C#" ],
+    "id": "10"
   },
   {
     "img": "../../assets/1885262_b576.jpg",
@@ -117,7 +132,8 @@
     "author": "Ava Turner",
     "actualPrice": "₹1299",
     "discountPercentage": "15%",
-    "tags": [ "Angular" ]
+    "tags": [ "Angular" ],
+    "id": "11"
   },
   {
     "img": "../../assets/dataviz.png",
@@ -125,7 +141,8 @@
     "author": "Ethan Davis",
     "actualPrice": "₹899",
     "discountPercentage": "0",
-    "tags": [ "Data Visualization", "D3.js" ]
+    "tags": [ "Data Visualization", "D3.js" ],
+    "id": "12"
   },
   {
     "img": "../../assets/4.jpg",
@@ -133,7 +150,8 @@
     "author": "Isabella Smith",
     "actualPrice": "₹799",
     "discountPercentage": "0",
-    "tags": [ "Android", "Mobile App Development" ]
+    "tags": [ "Android", "Mobile App Development" ],
+    "id": "13"
   },
   {
     "img": "../../assets/vuecover-1200x735.jpg",
@@ -141,7 +159,8 @@
     "author": "Logan Johnson",
     "actualPrice": "₹999",
     "discountPercentage": "18%",
-    "tags": [ "Vue.js", "JavaScript" ]
+    "tags": [ "Vue.js", "JavaScript" ],
+    "id": "14"
   },
   {
     "img": "../../assets/5.png",
@@ -149,6 +168,7 @@
     "author": "Sophie Turner",
     "actualPrice": "₹1199",
     "discountPercentage": "16%",
-    "tags": [ "Cloud Computing" ]
+    "tags": [ "Cloud Computing" ],
+    "id": "15"
   }
 ]

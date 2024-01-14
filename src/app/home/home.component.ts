@@ -1,7 +1,10 @@
 import { Component, Input } from '@angular/core';
 import * as data from '../../assets/data.json';
 import { CoursesService } from '../courses.service';
-
+interface WishItem {
+  id: number; // Adjust the type of 'id' based on your actual data type
+  // Add other properties if necessary
+}
 /*interface data {  
     img:string;
     courseName: string;
@@ -19,15 +22,7 @@ export class HomeComponent {
 
 
  
-  ngOnInit() {
-    
-    for(let i=0 ; i<4 ; i++) 
-    {
-      /*this.numOfPages[i]=[i+1];*/
-       this.pages[i]=this.courses[i];
-    }
-
-   }
+  
 
   courses: any = data.default;
   current: number=0;
@@ -65,49 +60,80 @@ export class HomeComponent {
       }
       
   }
-  buyCourses: any=[];
-  public buy( item:any)
-  {
-   this.buyCourses.push(item)
-   if(this.checkLocalStorageEmpty==null)
-   {
-   this.saveArrayToLocalStorage('buyer', this.buyCourses);
-   }
-   else 
-   {
-    this.appendArrayToLocalStorage('buyer', this.buyCourses);
-   }
+ 
+  buyNum: number[]=[];
+  buyCourses: WishItem[] = [];
+  public buy(item: any, itemIndex: number) {
+    // Check if the item already exists in wishList
+    const existsInWishList = this.buyCourses.some((wishItem) => wishItem.id === item.id);
+  
+    if (existsInWishList) {
+      window.alert("You added this course before");
+    } else {
+      // Add the item to wishList and wishNum
+      this.buyCourses.push(item);
+      this.buyNum.push(itemIndex);
+  
+      // Save to local storage
+      this.appendArrayToLocalStorage('buyer', item);
+    }
+    console.log(this.buyCourses)
   }
+  
   getArrayFromLocalStorage(key: string): any[] {
     const arrayString = localStorage.getItem(key);
     return arrayString ? JSON.parse(arrayString) : [];
   }
   appendArrayToLocalStorage(key: string, newArray: any[]): void {
-    // Get the existing array from local storage
     const existingArray = this.getArrayFromLocalStorage(key);
-
-    // Concatenate or merge the existing array with the new array
     const mergedArray = existingArray.concat(newArray);
-
-    // Save the merged array back to local storage
     this.saveArrayToLocalStorage(key, mergedArray);
   }
+  
   checkLocalStorageEmpty(key: string): boolean {
-    // Check if the key exists in local storage and if the value is not null
     const storedValue = localStorage.getItem(key);
     return storedValue === null;
   }
   saveArrayToLocalStorage(key: string, array: any[]): void {
-    // Convert the array to a JSON string
     const arrayString = JSON.stringify(array);
-
-    // Save the JSON string in local storage
     localStorage.setItem(key, arrayString);
   }
-  wishList: any=[];
-  public wish( item:any)
-  {
-   this.wishList.push(item)
+  wishList: WishItem[] = [];
+  wishNum : number[]=[];
+  public wish(item: any, itemIndex: number) {
+    // Check if the item already exists in wishList
+    const existsInWishList = this.wishList.some((wishItem) => wishItem.id === item.id);
+  
+    if (existsInWishList) {
+      window.alert("You added this course before");
+    } else {
+      // Add the item to wishList and wishNum
+      this.wishList.push(item);
+      this.wishNum.push(itemIndex);
+  
+      // Save to local storage
+      this.appendArrayToLocalStorage('favou', item);
+    }
+    console.log(this.wishList)
+  }
+    ngOnInit() {
+    
+      for(let i=0 ; i<4 ; i++) 
+      {
+        /*this.numOfPages[i]=[i+1];*/
+         this.pages[i]=this.courses[i];
+      //    for (const key in localStorage) {
+      //     if (localStorage.hasOwnProperty(key)) {
+      //       localStorage.removeItem(key);
+      //     }
+      // }
+      // this.appendArrayToLocalStorage('favou', this.wishList);       
+      //   this.appendArrayToLocalStorage('wishNumber', this.wishNum);
+      }
+     }
   }
 
-}
+
+
+
+

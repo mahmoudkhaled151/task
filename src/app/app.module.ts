@@ -12,6 +12,8 @@ import { HttpClientModule } from '@angular/common/http';
 
 
 import { CoursesService } from './courses.service';
+import { NotfoundComponent } from './notfound/notfound.component';
+import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +21,9 @@ import { CoursesService } from './courses.service';
     HomeComponent,
     PurchesComponent,
     FavouriteComponent,
-    ProfileComponent , 
+    ProfileComponent,
+    NotfoundComponent,
+    FooterComponent , 
     
   ],
   imports: [
